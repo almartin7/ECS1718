@@ -1,0 +1,79 @@
+body {
+    background-color: mediumturquoise;
+}
+
+#navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navli {
+    float: left;
+}
+
+#navlia {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navlia:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+p {
+    font-size: 25px;
+    margin-right: 1200px;
+}
+
+li {
+    font-size: 25px;
+}
+
+img {
+    height: 400px;
+    width: 450px;
+}
+
+.floating-box {
+    float: left;
+    width: 2000px;
+    height: 5px;
+    margin: 0px;
+}
+
+.floating-box2 {
+    float: right;
+    width: 1000px;
+    height: 5px;
+    margin: -100px;
+}
+
+table {
+    padding: 5px;
+    border: solid black 3px;
+}
+
+td, tr {
+    padding: 15px;
+    border: solid green 3px;
+    font-size: 25px;
+}
+
+.title {
+    font-family: arial;
+}
+
+
+a:hover {
+    color: red;
+}
